@@ -1,11 +1,22 @@
-Code Book
-Craig A. Tedeton
-Summary of the resulting data fields in the tidydata set
+### Code Book
+#### The data for project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Identifiers:
+#### Identifiers:
+#### subject,  Key or id of the test subject(s)
+#### activity,  Type of activity performed when measurements were taken
 
-subject ->> Key or id of the test subject(s)
-activity ->> Type of activity performed when measurements were taken
+#### Step 1 merges training and test sets into one data set using rbind with a final dataset of myData.
+#### This step also pulls the variables of subject and activity
+#### Data Used: "Y_test.txt", "Y_train.txt", "subject_train.txt", "subject_test.txt", "X_test.txt", "X_train.txt"
+
+#### Step 2 extract only measurement of the mean and standard dev for each using grep
+
+#### Step 3 uses descriptive activity names for activities in the data set taken from "activity_labels.txt"
+
+#### Step 4 appropriately labels the data set with descriptive variable names using gsub and myData dataset
+
+# Step 5 Creates a second, independent tidy data set w/average of each variable for each activity and subject
+
 
 Measurements
 
