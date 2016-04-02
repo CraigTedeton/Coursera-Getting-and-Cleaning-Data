@@ -1,6 +1,6 @@
 ### Code Book
 This code book summarizes the resulting data fields in tidy.txt.
-#### The data for project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+The data for project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 #### Identifiers:
 * subject,  Key or id of the test subject(s)
