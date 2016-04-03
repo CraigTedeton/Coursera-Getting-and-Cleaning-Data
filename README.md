@@ -1,23 +1,18 @@
-## Coursera-Getting-and-Cleaning-Data End of Course Project
+### Coursera-Getting-and-Cleaning-Data End of Course Project
 #### Due by April 3, 2016
 #### Craig Tedeton
-
-### Project Details
-Required to submit: 
-1) a tidy data set as described below, 
-2) a link to a Github repository with your script for performing the analysis, and 
-3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
-
-Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
-  - http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 #### Data for the project: 
   - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-#### You should create one R script called run_analysis.R that does the following.
+#### Project has one R script called run_analysis.R that does the following;
 
-- Merges the training and the test sets to create one data set.
-- Extracts only the measurements on the mean and standard deviation for each measurement.
-- Uses descriptive activity names to name the activities in the data set
-- Appropriately labels the data set with descriptive variable names.
-- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+Downloads and extracts the raw data set to a data subdirectory within the working directory
+Load the label information from activity and feature information details
+Loads both the training and test datasets into memory having columns with mean ans standard deviation
+Loads the activity and subject data for both datasets, and merges the columns
+Merges the two datasets together
+Converts the activity and subject columns into factors
+Creates dataset having the mean value of each variable for each subject and activity pair
+
+The output is a new data set named tidydata.txt
