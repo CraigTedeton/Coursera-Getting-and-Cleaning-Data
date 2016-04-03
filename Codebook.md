@@ -35,9 +35,11 @@ fBodyBodyAccJerkMagStd, fBodyBodyAccJerkMagMeanFreq, fBodyBodyGyroMagMean, fBody
 fBodyBodyGyroMagMeanFreq, fBodyBodyGyroJerkMagMean, fBodyBodyGyroJerkMagStd, fBodyBodyGyroJerkMagMeanFreq
 
 #### Activity Labels
-WALKING (value 1): subject only walked during specific test
-WALKING_UPSTAIRS (value 2): Subject walked UP stairs during the test
-WALKING_DOWNSTAIRS (value 3): Subject walked DOWN staris during the test
-SITTING (value 4): Subject was setted during the test.
-STANDING (value 5): Subject was standing during the test.
-LAYING (value 6): Subject was laying down during the test.
+* WALKING (value 1): subject only walked during specific test
+* WALKING_UPSTAIRS (value 2): Subject walked UP stairs during the test
+* WALKING_DOWNSTAIRS (value 3): Subject walked DOWN staris during the test
+* SITTING (value 4): Subject was setted during the test.
+* STANDING (value 5): Subject was standing during the test.
+* LAYING (value 6): Subject was laying down during the test.
+* 
+##
